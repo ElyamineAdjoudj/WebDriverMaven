@@ -22,7 +22,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Test@selenium123");
 		driver.findElement(By.xpath("//*[@id=\"customer_login\"]/div[1]/form/p[3]/input[3]")).click();
 		//ADD new comments
-		//new comment
+
 		
 		driver.close();
 }
