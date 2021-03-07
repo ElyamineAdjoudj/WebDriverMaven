@@ -21,6 +21,7 @@ public class LoginTest {
 		driver.findElement(By.xpath("//*[@id=\"username\"]")).sendKeys("pavanoltraining");
 		driver.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Test@selenium123");
 		driver.findElement(By.xpath("//*[@id=\"customer_login\"]/div[1]/form/p[3]/input[3]")).click();
+		System.out.println("Title is : "+ driver.getTitle());
 		//ADD new comments
 
 		
